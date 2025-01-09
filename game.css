@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+@media  screen and (min-width:240px) {
+    body{
+        background-color: black;
+        color: whitesmoke;
+    }
+    h1{
+        text-align: center;
+    }
+    
+    .movesbtn{ 
+    display: inline-flex;
+        position: absolute;
+        top: 70px;
+        right: 124px;
+    }
+    .result{
+        display:inline ;
+        position: relative;
+        top: 160px;
+        right: 1px;
+        font-size: 3rem;
+      color: whitesmoke;
+    }
+    .rockemojipng{        
+        position: relative;
+        right: 10px;
+        bottom:  70px;
+        height: 100px;
+        width: 90px;
+    }
+    .moves{
+        display: inline;
+        position: relative;
+        top: 100px;
+        left: 150px;
+     }
+ 
+    
+    .usermove{
+        
+        position: relative;
+        top:50px;
+        left: 150px;
+    } 
+    .ScoreResult{
+        display: inline-block;
+        position: relative;
+        top: 150px;
+        left: 120px;
+        
+    }
+   .resetbtn{
+    position: relative;
+    top: 410px;
+
+    padding-bottom: 10px;
+    height:0;
+    width: 0;
+    border: none;
+    right: 100px;
+    color: whitesmoke;
+   }    
+    .resetbtn:active{
+        border-width: 5px;
+        box-shadow: 1px 0px 20px;
+        
+    }
+    .rockImage{
+        
+        border-radius:700px ;
+        width: 55px;
+        background-color:black;
+    }
+    .btnrock{
+        
+        position: relative;
+        top: 300px;
+        left: 60px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+        border-width: 4px;
+        border-color: white;
+        background-color: black;
+    }
+    .btnpaper{
+        
+        position: relative;
+        top: 300px;
+        left: 80px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+        border-width: 4px;
+        border-color: white;
+        background-color: black;
+    }
+    .btnscissor{
+        
+        position: relative;
+        top: 300px;
+        left: 100px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+        border-width: 4px;
+        border-color: white;
+        background-color: black;
+    }
+    
+    .score{
+        position: relative;
+        top: 100px;
+    }
+        
+}
+
